@@ -1,12 +1,137 @@
 html {
-  /* standard default font size */
-  font-size: 16px;
+  /* standard default font size is 16px */
+  font-size: 18px;
+  line-height: 1.4rem;
 }
 
 body {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  height: 31rem;
+  background-image: url("./backgrounds/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sitecontainer {
+  width: 960px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.logo span {
+  font-size: 1rem;
+  color: white;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  font-size: 1rem;
+  color: white;
+  text-decoration-line: none;
+  margin-right: 2rem;
+}
+
+.headline {
+  text-align: right;
+  margin-top: 13rem;
+  margin-right: -2rem;
+}
+
+.headline span {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+  margin-bottom: 3rem;
+}
+
+.paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.ruler {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5rem;
+  width: 5rem;
+  height: 8rem;
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.truck {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.paper img {
+  width: 3.5rem;
+}
+
+.ruler img {
+  width: 5rem;
+}
+
+.truck img {
+  width: 5rem;
+}
+
+.information {
 
 }
 
-.container {
+@media only screen and (max-width: ) {
 
 }
