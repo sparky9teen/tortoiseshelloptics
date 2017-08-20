@@ -129,9 +129,45 @@ a {
 }
 
 .information {
-
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6rem;
+  margin-bottom: 9rem;
 }
 
-@media only screen and (max-width: ) {
-
+.title {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  width: 10rem;
+  height: 2rem;
+  text-align: left;
+  background-color: cadetblue;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
 }
+
+.text {
+  display: block;
+  width: 18.667rem;
+  text-align: left;
+  margin-right: 2.667rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 4rem;
+}
+
+/* @media only screen and (max-width: ) {
+
+} */
